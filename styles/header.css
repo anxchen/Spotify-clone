@@ -7,3 +7,37 @@
     background-color: black;
     height: 64px;
 }
+.left-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 64px;
+    background-color: black;
+}
+.spotify-logo {
+    width: 32px;
+}   
+.home-button {
+    background-color: black;
+    border: none;
+}
+.home-icon {
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 39, 39);  
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    padding: 9px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-icon:hover {
+    color: white;
+    background-color: rgb(62, 62, 62);
+    height: 29px;
+    width: 29px;
+    padding: 10px;
+}
